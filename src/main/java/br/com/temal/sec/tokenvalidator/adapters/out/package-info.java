@@ -1,0 +1,1 @@
+package br.com.temal.sec.tokenvalidator.adapters.out;
