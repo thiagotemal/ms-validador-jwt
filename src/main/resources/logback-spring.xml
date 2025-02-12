@@ -1,0 +1,11 @@
+<configuration>
+    <appender name="OTEL_CONSOLE" class="io.opentelemetry.instrumentation.logback.appender.v1_0.OpenTelemetryAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="OTEL_CONSOLE" />
+    </root>
+</configuration>

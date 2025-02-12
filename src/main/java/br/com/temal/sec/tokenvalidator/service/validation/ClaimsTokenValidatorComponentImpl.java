@@ -1,10 +1,10 @@
 package br.com.temal.sec.tokenvalidator.service.validation;
 
-import br.com.temal.sec.tokenvalidator.util.ExtractClaims;
-import br.com.temal.sec.tokenvalidator.util.ExtractClaimsImpl;
+import java.util.Map;
+
 import com.auth0.jwt.interfaces.Claim;
 
-import java.util.Map;
+import br.com.temal.sec.tokenvalidator.util.ExtractClaims;
 
 public class ClaimsTokenValidatorComponentImpl implements ClaimsTokenValidatorComponent {
     private final ExtractClaims extractClaims;
